@@ -1,3 +1,4 @@
+import 'package:alubank_alura_project/components/sections/box_card.dart';
 import 'package:alubank_alura_project/components/sections/header.dart';
 import 'package:flutter/material.dart';
 
@@ -7,8 +8,12 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
-      body: const Header(),
+      body: Column(
+        children: <Widget>[
+          Header(),
+          BoxCard(boxContent: Text("Olá Mundo!"),),
+        ],
+      ),
     );
   }
 }
