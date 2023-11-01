@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../themes/theme_colors.dart';
+
 class Header extends StatelessWidget {
   const Header({super.key});
 
@@ -10,11 +12,7 @@ class Header extends StatelessWidget {
         gradient: LinearGradient(
           begin: Alignment.topCenter,
           end: Alignment.bottomCenter,
-          colors: <Color>[
-            Color.fromRGBO(103, 99, 234, 1),
-            Color.fromRGBO(155, 105, 254, 1),
-            Color.fromRGBO(195, 107, 255, 1),
-          ],
+          colors: ThemeColors.headerGradient,
         ),
         borderRadius: BorderRadius.only(
           bottomLeft: Radius.circular(10),
