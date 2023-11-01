@@ -1,4 +1,5 @@
 import 'package:alubank_alura_project/screens/home.dart';
+import 'package:alubank_alura_project/themes/my_theme.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,7 +11,8 @@ class Alubank extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
+      theme: myTheme,
       title: "Alubank",
       home: Home(),
     );
