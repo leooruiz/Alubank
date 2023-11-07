@@ -61,14 +61,17 @@ class _AccountActionsContent extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        Padding(
-          padding: const EdgeInsets.only(bottom: 8.0),
-          child: icon,
-        ),
-        Text(text)
-      ],
+    return SizedBox(
+      width: 80,
+      child: Column(
+        children: [
+          Padding(
+            padding: const EdgeInsets.only(bottom: 8.0),
+            child: icon,
+          ),
+          Text(text)
+        ],
+      ),
     );
   }
 }
