@@ -5,6 +5,7 @@ ThemeData myTheme = ThemeData(
   primarySwatch: ThemeColors.primaryColor,
   primaryColor: ThemeColors.primaryColor,
   brightness: Brightness.dark,
+  fontFamily: 'Raleway',
   cardColor: const Color.fromARGB(255, 59, 59, 59),
   textTheme: const TextTheme(
       bodyMedium: TextStyle(
