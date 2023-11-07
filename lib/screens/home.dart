@@ -1,4 +1,5 @@
 import 'package:alubank_alura_project/components/sections/account_actions.dart';
+import 'package:alubank_alura_project/components/sections/account_points.dart';
 import 'package:alubank_alura_project/components/sections/header.dart';
 import 'package:alubank_alura_project/components/sections/recent_activity.dart';
 import 'package:flutter/material.dart';
@@ -14,6 +15,7 @@ class Home extends StatelessWidget {
           Header(),
           RecentActivity(),
           AccountActions(),
+          AccountPoints(),
         ],
       ),
     );
