@@ -23,7 +23,7 @@ class AccountActions extends StatelessWidget {
             children: [
               InkWell(
                 onTap: () {},
-                
+                borderRadius: BorderRadius.circular(7),
                 child: const BoxCard(
                   boxContent: _AccountActionsContent(
                     icon: Icon(
@@ -34,6 +34,7 @@ class AccountActions extends StatelessWidget {
                 ),
               ),
               InkWell(
+                borderRadius: BorderRadius.circular(7),
                 onTap: () {},
                 child: const BoxCard(
                   boxContent: _AccountActionsContent(
@@ -45,6 +46,7 @@ class AccountActions extends StatelessWidget {
                 ),
               ),
               InkWell(
+                borderRadius: BorderRadius.circular(7),
                 onTap: () {},
                 child: const BoxCard(
                   boxContent: _AccountActionsContent(
