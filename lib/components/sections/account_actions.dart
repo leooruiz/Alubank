@@ -18,31 +18,41 @@ class AccountActions extends StatelessWidget {
               style: Theme.of(context).textTheme.titleMedium,
             ),
           ),
-          const Row(
+          Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              BoxCard(
-                boxContent: _AccountActionsContent(
-                  icon: Icon(
-                    Icons.account_balance_wallet,
+              InkWell(
+                onTap: () {},
+                
+                child: const BoxCard(
+                  boxContent: _AccountActionsContent(
+                    icon: Icon(
+                      Icons.account_balance_wallet,
+                    ),
+                    text: "Depositar",
                   ),
-                  text: "Depositar",
                 ),
               ),
-              BoxCard(
-                boxContent: _AccountActionsContent(
-                  icon: Icon(
-                    Icons.cached,
+              InkWell(
+                onTap: () {},
+                child: const BoxCard(
+                  boxContent: _AccountActionsContent(
+                    icon: Icon(
+                      Icons.cached,
+                    ),
+                    text: "Transferir",
                   ),
-                  text: "Transferir",
                 ),
               ),
-              BoxCard(
-                boxContent: _AccountActionsContent(
-                  icon: Icon(
-                    Icons.center_focus_strong,
+              InkWell(
+                onTap: () {},
+                child: const BoxCard(
+                  boxContent: _AccountActionsContent(
+                    icon: Icon(
+                      Icons.center_focus_strong,
+                    ),
+                    text: "Ler",
                   ),
-                  text: "Ler",
                 ),
               ),
             ],
@@ -62,7 +72,7 @@ class _AccountActionsContent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      width: 80,
+      width: 75,
       child: Column(
         children: [
           Padding(
