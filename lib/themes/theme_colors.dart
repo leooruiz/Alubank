@@ -12,4 +12,9 @@ class ThemeColors {
     'incoming': Color.fromRGBO(191, 69, 198, 1.0),
   };
   static const division = Color.fromRGBO(166, 166, 166, 1.0);
+
+  static const Map<String, Color> accountPoints = {
+    'deliver': Color.fromRGBO(250, 0, 112, 1),
+    'streaming': Color.fromRGBO(75, 89, 191, 1),
+  };
 }
