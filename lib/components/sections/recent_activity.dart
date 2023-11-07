@@ -83,7 +83,7 @@ class _RecentActivityContent extends StatelessWidget {
           child: ContentDivision(),
         ),
         const Text(
-            "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem"),
+            "Esse mês você gastou \$1500.00 com jogos. Tente abaixar esse custo!"),
         TextButton(
           child: const Text("Diga-me como!", style: TextStyle(fontSize: 16)),
           onPressed: () {},
